@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="mapper.MemberMapper">
+    <select id="getMembers" resultType="models.member.Member">
+        <bind name = "userId" value="'%' + _parameter.getUserId() + '%'" />
+        <bind name = "userNm" value="'%' + _parameter.getUserNm() + '%'" />
+        SELECT * FROM MEMBER
+        <trim prefix="WHERE" suffixOverrides="AND | OR">
+            <if test="userId != null">
+                USER_ID LIKE #{userId} AND
+            </if>
+            <if test="userNm != null">
+                USER_NM LIKE #{userNm} AND
+            </if>
+        </trim>
+        <!--
+            <where>
+                <if test="userId != null">
+                    USER_ID LIKE #{userId}
+                </if>
+                <if test="userNm != null">
+                    AND USER_NM LIKE #{userNm}
+                </if>
+            </where>
+            -->
+    </select>
+    <insert id = "register">
+        //before 이면 뒤에 있는 쿼리를 수행하기 전에 select쪽에 있는 쿼리를 먼저 실행한다.
+        //수행결과를 userNo에 그대로 담겠다.....?하씌 ㅜㅡㅜ
+        //추가하고 나서 증감번호를 알고싶을 때
+        <selectKey keyProperty="userNo" order="BEFORE" resultType="long">
+            SELECT SEQ_MEMBER.nextval FROM DUAL
+        </selectKey>
+        INSERT INTO MEMBER (USER_NO, USER_ID, USER_PW, USER_NM, EMAIL)
+        VALUES (#{userNo}, #{userId}, #{userPw}, #{userNm}, #{email})
+    </insert>
+    <update id="update">
+        //교체된 내용을 #{}에 입력하면 교체가 된다.
+        UPDATE MEMBER
+            <set>
+                <if test="userPw != null">
+                USER_PW = #{userPw},
+                </if>
+                <if test="userNm != null">
+                USER_NM = #{userNm},
+                </if>
+                <if test="email != null">
+                EMAIL = #{email}
+                </if>
+            </set>
+        WHERE USER_ID = #{userId}
+
+    </update>
+
+    <delete id="delete">
+        DELETE FROM MEMBER WHERE USER_ID=#{userId}
+    </delete>
+</mapper>

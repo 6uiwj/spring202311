@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<!--교체가 될 내용?-->
+    <header th:fragment="common">
+        <!--로그인 상태일 떄 출력되는 부분 -> 마이페이지 -->
+        <th:block th:if="${@utils.isLogin()}">
+            <span th:text="${#messages.msg('LOGIN_MSG', session.member.userNm, session.member.userId)}"></span>
+            <a th:href="@{/mypage}" th:text="#{마이페이지}"></a>
+            <a th:href="@{/member/logout}" th:text="#{로그아웃}"></a>
+        </th:block>
+        <!--로그인 상태가 아닐 때 _> 회원가입과 로그인 링크-->
+        <th:block th:unless="${@utils.isLogin()}">
+            <a th:href="@{/member/join}" th:text="#{회원가입}"></a>
+            <a th:href="@{/member/login}" th:text="#{로그인}"></a>
+        </th:block>
+    </header>
+</html>

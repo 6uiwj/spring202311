@@ -104,6 +104,8 @@ public class ApiMemberController {
             System.out.println("처리....");
 
         }
+
+
         //예외처리 - 예외를 문자로 던짐...?
     /*
         @ExceptionHandler(Exception.class)

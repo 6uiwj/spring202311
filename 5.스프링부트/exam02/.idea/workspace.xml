@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d401d3f1-2cbf-4e09-a4e6-66e94eb42344" name="Changes" comment="231226 -1">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.5/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/choongang/entities/BoardData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/choongang/entities/BoardData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/choongang/entities/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/choongang/entities/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/choongang/repositories/BoardDataRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/choongang/repositories/BoardDataRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/org/choongang/repositories/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/choongang/repositories/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/org/choongang/jpaex/Ex04Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/org/choongang/jpaex/Ex04Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/BoardData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/BoardData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/BoardDataRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/BoardDataRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/repositories/MemberRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex04Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex04Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="d401d3f1-2cbf-4e09-a4e6-66e94eb42344" name="Changes" comment="231226 -1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703577764006</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="231226 -1">
+      <option name="closed" value="true" />
+      <created>1703661226217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703661226217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

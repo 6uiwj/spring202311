@@ -20,7 +20,7 @@ import static org.springframework.data.domain.Sort.Order.asc;
 import static org.springframework.data.domain.Sort.Order.desc;
 
 @SpringBootTest
-@TestPropertySource(properties = "spring.profiles.active=test")
+//@TestPropertySource(properties = "spring.profiles.active=test")
 @Transactional //test할 때만 있고 제거
 public class Ex04Test {
 

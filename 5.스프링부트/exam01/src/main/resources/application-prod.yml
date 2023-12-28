@@ -1,0 +1,15 @@
+server:
+  port: 4000
+
+spring:
+  # 데이터베이스 설정
+  datasource:
+    driverClassName:  oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: SPRING6
+    password: _aA123456
+
+  #타임리프 설정
+  thymeleaf:
+    cache:  true
+    prefix: classpath:/templates/

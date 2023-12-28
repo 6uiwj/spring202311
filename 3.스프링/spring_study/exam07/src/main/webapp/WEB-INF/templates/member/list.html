@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--타임리프를 사용하기 위한 네임스페이스 -->
+<html xmlns:th="http://www.thymeleaf.org">
+    <body>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>순번</th>
+                    <th>아이디</th>
+                    <th>회원명</th>
+                    <th>이메일</th>
+                    <th>가입일시</th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--꺼내온 다음에 th:object를 써야해!!! 반드시 오른쪽에 써줄 것-->
+            <!--count 번호가 짝수일 때에만 노출되도록 설정-->
+                <tr th:each="member, status : ${members}" th:object="${member}">
+                    <!--<td th:text="${status.index}"></td>-->
+                    <td>
+                        <!--text만 출력할 때에는 th:block을 가지고 출력-->
+                        <th:block th:text="${status.count}"></th:block>
+                        [<th:block th:text="${status.first}"></th:block>]
+                        [<th:block th:text="${status.last}"></th:block>]
+                        <!--
+                        <span th:if="${status.even}">짝수</span>
+                        <span th:if="${status.odd}">홀수</span>
+                        위와 같은코드 unless 이용
+                        <span th:unless="${status.even}">홀수</span>
+                        -->
+                        <th:block th:switch="${status.even}">
+                            <span th:case="true">짝수</span>
+                            <span th:case="false">홀수</span>
+                        </th:block>
+                    </td>
+                    <td th:text="*{userId}"></td>
+                    <td th:text="*{#strings.concat(userNm, '(' + userId + ')')}"></td>
+                    <td th:text="*{email}"></td>
+                    <td th:text="*{#temporals.format(regDt, 'yyyy.MM.dd HH:mm')}"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div th:text="${#numbers.formatInteger(100000000,3,'COMMA')}"></div>
+        <th:block th:each="num: ${#numbers.sequence(1,10)}">
+            <h1 th:text="${num}"></h1>
+        </th:block>
+    </body>
+</html>

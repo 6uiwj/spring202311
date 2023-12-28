@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d401d3f1-2cbf-4e09-a4e6-66e94eb42344" name="Changes" comment="231226 -1">
+      <change afterPath="$PROJECT_DIR$/../../4.자바보강/streamex/src/exam05/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.자바보강/ioex/src/exam04/Ex01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.자바보강/ioex/src/exam04/Ex01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4.자바보강/ioex/src/exam04/Ex02.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../4.자바보강/ioex/src/exam04/Ex02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/choongang/entities/Member.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2ZsxUqsQLaGalyiMxMB3ddYX7co" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;reply&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/ming/4.자바보강/streamex&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.Ex09Test.test1">
+    <configuration name="Ex06Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex06Test" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06Test.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex06Test" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex06Test.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex06Test" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex08Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex08Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex09Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam02.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.choongang.jpaex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.choongang.jpaex" />
+      <option name="MAIN_CLASS_NAME" value="org.choongang.jpaex.Ex09Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Ex09Test.test1" />
+        <item itemvalue="JUnit.Ex08Test.test2" />
+        <item itemvalue="JUnit.Ex06Test.test5" />
+        <item itemvalue="JUnit.Ex06Test.test4" />
+        <item itemvalue="JUnit.Ex06Test.test3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d401d3f1-2cbf-4e09-a4e6-66e94eb42344" name="Changes" comment="" />
+      <created>1703224607296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703224607296</updated>
+    </task>
+    <task id="LOCAL-00001" summary="231226">
+      <option name="closed" value="true" />
+      <created>1703574790855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703574790855</updated>
+    </task>
+    <task id="LOCAL-00002" summary="231226 -1">
+      <option name="closed" value="true" />
+      <created>1703577764006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703577764006</updated>
+    </task>
+    <task id="LOCAL-00003" summary="231226 -1">
+      <option name="closed" value="true" />
+      <created>1703661226217</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703661226217</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="231226" />
+    <MESSAGE value="231226 -1" />
+    <option name="LAST_COMMIT_MESSAGE" value="231226 -1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex01Test.java</url>
+          <line>66</line>
+          <properties class="org.choongang.jpaex.Ex01Test">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/choongang/jpaex/Ex03Test.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

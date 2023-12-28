@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+    xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorate="~{layouts/common}">
+<main layout:fragment="content">
+    <!--기본구성 common, ㅇ ㅏ졸려...-->
+    <h1 th:text="#{로그인}"></h1>
+    <form method = "post" th:action="@{/member/login}" th:object="${requestLogin}"> <!--선택 변수 식으로 연동-->
+        <!--커맨드 객체 자체의 오류(글로벌에러)에 대한 설정-->
+        <div th:each="err: ${#fields.globalErrors()}" th:text="${err}"></div>
+        <dl>
+            <dt th:text="#{아이디}"></dt>
+            <dd>
+                <input type="text" name = "userId" th:field="*{userId}">
+                <!--#fields.errors('userId) : 필드에 발생하는 에러들을 추가할 수있다.-->
+                <div th:each="err : ${#fields.errors('userId')}" th:text="${err}"></div>
+            </dd>
+        </dl>
+        <dl>
+            <dt th:text="#{비밀번호}"></dt>
+            <dd>
+                <input type = "password" name="userPw" th:field="*{userPw}">
+                <div th:each="err : ${#fields.errors('userPw')}" th:text="${err}"></div>
+            </dd>
+        </dl>
+        <button type="submit" th:text="#{로그인}"></button>
+    </form>
+</main>
+</html>

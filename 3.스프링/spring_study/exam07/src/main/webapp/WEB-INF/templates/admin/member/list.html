@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{layouts/common}">
+
+<main layout:fragment = "content">
+    <h1 th:text="#{회원목록}"></h1>
+    <!--커맨드 객체: membersearch-->
+    <form method = "get" th:action="@{/admin/member}" th:object="${memberSearch}">
+        <input type="text" name="sdate" th:field="*{sdate}">
+        <span th:each="err : ${#fields.errors('sdate')}" th:text="${err}"></span>
+        <input type="text" name="edate" th:field="*{edate}">
+        <span th:each="err : ${#fields.errors('edate')}" th:text="${err}"></span>
+        <button type="submit" th:text="#{조회하기}"></button>
+    </form>
+    <table border="1">
+        <thead>
+            <tr>
+                <th th:text="#{순번}"></th>
+                <th th:text="#{아이디}"></th>
+                <th th:text="#{회원명}"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="member, status : ${members}" th:object="${member}">
+                <td th:text="*{status.count}"></td>
+                <td th:text="*{userId}"></td>
+                <td th:text="*{userNm}"></td>
+            </tr>
+        </tbody>
+
+    </table>
+</main>
+
+</html>

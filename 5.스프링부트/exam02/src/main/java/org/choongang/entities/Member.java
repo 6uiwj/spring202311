@@ -45,7 +45,7 @@ public class Member extends Base {
     private MemberType type;
 
     @ToString.Exclude
-    @OneToMany(mappedBy = "member", fetch=FetchType.LAZY) //관계의 주인 명시(자식=외래키) / fetch = ... : 참조발생?
+    @OneToMany(mappedBy = "member", fetch=FetchType.LAZY, cascade = CascadeType.REMOVE) //관계의 주인 명시(자식=외래키) / fetch = ... : 참조발생?
     //조회한 게시글 목록 가져오기
     private List<BoardData> items = new ArrayList<>();
 
